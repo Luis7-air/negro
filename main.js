@@ -21,3 +21,9 @@ let menor = 1 < 0
 let mayorigual = 1 >= 0
 let menorigual = 1 <= 0 
 let los2sonverdaderos = true && false
+let favio = 10 + 10 
+let nombre = "luis"
+let apellido = " duran"
+let nombrecompleto = nombre + apellido 
+console.log(nombrecompleto)
+
