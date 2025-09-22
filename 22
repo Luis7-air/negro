@@ -1,0 +1,23 @@
+class NombreDeLaClase{
+    constructor(atributo){
+       this.propiedad=atributo
+    }
+    metodo(){
+        console.log(this.propiedad)
+    }
+}
+let intancia = new NombreDeLaClase("valor")
+intancia.metodo()
+let variable = intancia.propiedad
+
+class Persona{
+    constructor(nombre)
+        this.nombre=nombre
+}
+presentarse(){
+    console.log.("mi nombre es",this.nombre)
+    }
+    }
+    let luis = new Persona("luis")
+    luis.presentarse()
+    
